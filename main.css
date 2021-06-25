@@ -1,0 +1,115 @@
+.grid{
+
+   
+    display: grid;
+    grid-template-columns: 100%  ;
+    grid-template-rows: 100px 100px 100px 100px;
+    grid-template-areas:    " header "
+                            " navbar "
+                            " texte  "
+                            /* " block  " */
+                             
+  }
+
+  .grid2{
+
+   
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%  ;
+    grid-template-rows: 100px ;
+    grid-template-areas:    
+                            " formBlock  "
+                             
+  }
+
+
+body{
+
+
+    background-color: burlywood;
+}
+
+
+
+  .header{
+
+
+    background-image: url("https://i.imgur.com/HC42paw.jpg");
+    background-size: 300px 100px;
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: center;
+    font-size: 40px;
+
+  }
+
+
+  
+
+                            ul {
+                                list-style-type: none;
+                                margin: 0;
+                                padding: 0;
+                                overflow: hidden;
+                                background-color: #333;
+                            }
+                            
+                            li {
+                                float: left;
+                            }
+                            
+                            li a {
+                                display: block;
+                                color: white;
+                                text-align: center;
+                                padding: 19px 16px;
+                                text-decoration: none;
+                            }
+                            
+                            li a:hover {
+                                background-color: #111;
+                            }
+
+                            input[type=text] {
+                                width: 90%;
+                                padding: 12px 20px;
+                                margin: 8px 0;
+                                box-sizing: border-box;
+                                border: 2px solid white;
+                                border-radius: 4px;
+                            }
+
+
+
+
+  .navibar{
+
+    margin-top: 300px;
+
+
+  }
+
+
+  .texte{
+
+    margin-top: 300px;
+    font-family: 'Jomhuria', cursive;
+    font-size: 25px;
+   text-align: center;
+
+  }
+ 
+  
+
+
+  .formBlock{
+
+    display:inline-block;
+    margin-top: 250px;
+    padding: 40px;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    
+    
+  }
